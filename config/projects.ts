@@ -197,21 +197,22 @@ export const Projects: ProjectInterface[] = [
     shortDescription:
       "ZigGroup is a website for an architecture firm, showcasing a portfolio of architectural projects and more.",
     websiteLink: "https://zigarch.com",
+    companyLogoImg: "/projects/ziggroup/logo.png",
     techStack: ["WordPress", "PHP"],
     pagesInfoArr: [
       {
-        title: "Landing Page",
-        description: "Landing page for the Lost and Found app",
+        title: "Home Page",
+        description: "Home page for the ZigGroup Architecture",
         imgArr: ["/projects/ziggroup/1.gif"],
       },
       {
-        title: "Home Page",
-        description: "Home page for the Lost and Found app",
+        title: "Projects Page",
+        description: "Projects page for the ZigGroup Architecture",
         imgArr: ["/projects/ziggroup/2.gif"],
       },
       {
-        title: "Login Form",
-        description: "Login form for the Lost and Found app",
+        title: "Contact Page",
+        description: "Contact page for the ZigGroup Architecture",
         imgArr: ["/projects/ziggroup/3.gif"],
       },
     ],
