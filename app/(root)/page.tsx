@@ -109,19 +109,20 @@ export default function IndexPage() {
               </Link>
             </AnimatedText>
             <AnimatedText delay={0.8}>
-              <Link
-                href={"/contact"}
-                rel="noreferrer"
+              <a
+                href="/Gentuar Lushtaku.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({
                     variant: "outline",
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Gentuar Lushtaku"
+                aria-label="View Gentuar Lushtaku's Resume"
               >
-                <Icons.contact className="w-4 h-4 mr-2" /> Contact
-              </Link>
+                <Icons.post className="w-4 h-4 mr-2" /> View Resume
+              </a>
             </AnimatedText>
           </div>
           <AnimatedText delay={1.2}>
