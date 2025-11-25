@@ -29,48 +29,57 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "idfier",
-    companyName: "IDFier Website",
+    id: "skenderajheritage",
+    companyName: "Skenderaj Heritage",
     category: ["Web Dev", "Full Stack"],
     shortDescription:
-      "Developed and optimized an informational website for IDFier app, showcasing services and features to inform users about the application.",
-    websiteLink: "https://idfier.com",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Vercel",
-      "PostgreSQL",
-      "Typescript",
-    ],
-
-    companyLogoImg: "/projects/idfier/logo.svg",
+      "Skenderaj Heritage is a website for a heritage organization, showcasing a portfolio of architectural projects and more.",
+    websiteLink: "https://skenderaj.vercel.app",
+    techStack: ["Next.js", "React", "Typescript"],
+    companyLogoImg: "/projects/skenderaj/logo.png",
     pagesInfoArr: [
       {
         title: "Landing Page",
         description:
-          "Modern and responsive landing page showcasing IDFier services and portfolio",
+          "Modern and responsive landing page showcasing Skenderaj Heritage services and portfolio",
+        imgArr: ["/projects/skenderaj/1.gif"],
+      },
+      {
+        title: "Projects Page",
+        description: "Projects page for the Skenderaj Heritage",
+        imgArr: ["/projects/skenderaj/2.png", "/projects/skenderaj/3.gif"],
+      },
+      {
+        title: "Business Page",
+        description: "Business page for the Skenderaj Heritage",
         imgArr: [
-          "/projects/idfier/1.png",
-          "/projects/idfier/2.png",
-          "/projects/idfier/3.png",
-          "/projects/idfier/4.png",
-          "/projects/idfier/5.png",
-          "/projects/idfier/6.png",
+          "/projects/skenderaj/4.png",
+          "/projects/skenderaj/5.png",
+          "/projects/skenderaj/6.png",
         ],
+      },
+      {
+        title: "About Page",
+        description: "About page for the Skenderaj Heritage",
+        imgArr: ["/projects/skenderaj/7.png"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "IDfier is a peer-to-peer identity verification app that helps people confirm who they're really talking to before they meet, send money, or share anything important. Built using the same technology trusted by banks and border control, IDfier uses government-issued ID scanning, biometric face matching, NFC chip reading, and liveness detection to prevent deepfakes. Whether you're meeting a date from a dating app, letting out your flat, buying second-hand, or just chatting with someone new online, IDfier ensures the person is genuine, human, and verified.",
+        "During the development of Skenderaj Heritage, I took full ownership of building a comprehensive, bilingual digital platform showcasing historical places and local businesses in Skenderaj using Next.js 16, TypeScript, and PostgreSQL with Drizzle ORM",
+        "My focus was on delivering a seamless multilingual experience (Albanian/English) through a modern, responsive web application with interactive maps, image galleries, and a robust admin panel for content management",
       ],
       bullets: [
-        "Developed and optimized a high-performing website catering to over 500 users.",
-        "Collaborated closely with the product team to implement cutting-edge features.",
-        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        "Utilized Node.js, React Native, and PostgreSQL to design and manage databases.",
+        "End-to-end application development with Next.js 16 (App Router), TypeScript, and React 19, ensuring type-safe code, server-side rendering, and optimal performance",
+        "Bilingual content management system supporting Albanian and English translations throughout the platform, with dynamic language switching and URL-based language persistence",
+        "PostgreSQL database architecture using Drizzle ORM for type-safe database queries, migrations, and schema management, ensuring data integrity and scalability",
+        "RESTful API routes with comprehensive CRUD operations for places and businesses, supporting FormData for image uploads and JSON for data operations",
+        "Cloudinary integration for efficient image upload, storage, and optimization, enabling multiple image galleries per place and business with automatic fallback handling",
+        "Interactive mapping functionality using Leaflet and React Leaflet, allowing users to visualize locations and enabling admins to set coordinates via map clicks",
+        "Admin panel with intuitive forms for creating and editing places and businesses, featuring image upload, map integration, and bilingual content management",
+        "Responsive design implementation with Tailwind CSS 4, ensuring optimal user experience across mobile, tablet, and desktop devices",
+        "Server-side rendering and client component architecture, optimizing initial page loads while maintaining interactivity for dynamic features",
+        "SEO-friendly implementation with proper metadata, semantic HTML, and dynamic routing for places and businesses detail pages",
       ],
     },
   },
@@ -187,6 +196,52 @@ export const Projects: ProjectInterface[] = [
     descriptionDetails: {
       paragraphs: [
         "Lost & Found is an interactive web platform aimed at helping users quickly locate or report lost items within a community. Designed with a focus on user experience, the platform allows users to register, report lost items, browse available listings, and engage with others through comments. Built using React, Node.js, and MongoDB, it provides a seamless interface and real-time item tracking capabilities. With features like category filtering (e.g., electronics, personal items), notifications, and an approval system, Lost & Found fosters a secure and collaborative environment for users to reconnect with their misplaced belongings.",
+      ],
+    },
+  },
+  {
+    id: "idfier",
+    companyName: "IDFier Website",
+    category: ["Web Dev", "Full Stack"],
+    shortDescription:
+      "Developed and optimized an informational website for IDFier app, showcasing services and features to inform users about the application.",
+    websiteLink: "https://idfier.com",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Vercel",
+      "PostgreSQL",
+      "Typescript",
+    ],
+
+    companyLogoImg: "/projects/idfier/logo.svg",
+    pagesInfoArr: [
+      {
+        title: "Landing Page",
+        description:
+          "Modern and responsive landing page showcasing IDFier services and portfolio",
+        imgArr: [
+          "/projects/idfier/1.png",
+          "/projects/idfier/2.png",
+          "/projects/idfier/3.png",
+          "/projects/idfier/4.png",
+          "/projects/idfier/5.png",
+          "/projects/idfier/6.png",
+        ],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "IDfier is a peer-to-peer identity verification app that helps people confirm who they're really talking to before they meet, send money, or share anything important. Built using the same technology trusted by banks and border control, IDfier uses government-issued ID scanning, biometric face matching, NFC chip reading, and liveness detection to prevent deepfakes. Whether you're meeting a date from a dating app, letting out your flat, buying second-hand, or just chatting with someone new online, IDfier ensures the person is genuine, human, and verified.",
+      ],
+      bullets: [
+        "Developed and optimized a high-performing website catering to over 500 users.",
+        "Collaborated closely with the product team to implement cutting-edge features.",
+        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
+        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
+        "Utilized Node.js, React Native, and PostgreSQL to design and manage databases.",
       ],
     },
   },
